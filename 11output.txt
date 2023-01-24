@@ -1,0 +1,2 @@
+Hello kalys, your home is /home/kalys, and your shell is /bin/bash
+E.coli
