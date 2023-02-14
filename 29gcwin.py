@@ -14,14 +14,6 @@
 seq = 'ACGACGCAGGAGGAGAGTTTCAGAGATCACGAATACATCCATATTACCCAGAGAGAG'
 w = 11
 
-for i in range(len(seq) -w + 1):
-	GC_number = 0
-	window = seq[i: i + w]
-	for nt in window:
-		if nt == 'C' or nt =='G':
-			GC_number += 1
-		GC_fraction = GC_number / w
-	print(f'{i} {window} {GC_fraction:.4f}')
 
 """
 python3 26gcwin.py

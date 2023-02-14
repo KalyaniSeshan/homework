@@ -1,0 +1,21 @@
+for i in range(len(seq)-w+1)
+	win = seq[i:i+w]
+for nt in win:
+	if nt == 'G' or 'C'
+	
+# to remove stuff from hw repo
+
+git rm -f 20loops.py
+"""
+
+
+shotgun sequencing: when randomly sequencing and aligning seq back to genome,
+ the seqs start to pile up twice as much on a duplicated sequence than a normal
+ sequence in the chromosome
+ coverage: amount of reads aligned on a specific part of chromosome (how many 
+ reads overlap a specific position, or pile up on a location)
+ - resequencing genome
+ - endpoints are unreliable to check coverage bc they have a low chance of being
+ sampled (undersampled)
+ - look in middle for average coverage etc. (just leave out ends)
+ - with 100x coverage in middle, can never get 1 or 0 coverage at ends

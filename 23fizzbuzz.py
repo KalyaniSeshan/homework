@@ -7,12 +7,6 @@
 
 # Note: this is a common interview question
 
-n = 100
-for i in range(1, n+1):
-	if i in range(0, n+1, 15):  print('FizzBuzz')
-	elif i in range(0, n+1, 5): print('Buzz')
-	elif i in range(0, n+1, 3): print('Fizz')
-	else: 					    print(i)
 
 """
 python3 23fizzbuzz.py

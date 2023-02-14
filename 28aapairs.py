@@ -7,16 +7,9 @@
 
 # Hint: if you get stuck for more than 10 minutes, get help
 
-aa_list = 'ACDEFGHIKLMNPQRSTVWY'
-aa_number = 0
-
-for i in range(len(aa_list)):
-	for aa in range(i + 1, len(aa_list)):
-		print(aa_list[i], aa_list[aa])
-		aa_number += 1
-print(aa_number)
 
 """
+python3 28aapairs.py
 A C
 A D
 A E

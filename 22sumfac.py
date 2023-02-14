@@ -6,14 +6,6 @@
 
 # Note: you may not import math or any other library
 
-sum = 0
-n = 5
-factorial = 1
-
-for i in range(1, n+1):
-	sum += i
-	factorial *= i
-print(n, sum, factorial)
 
 """
 python3 22sumfac.py

@@ -8,15 +8,7 @@
 
 dna = 'ATGGCCTTT'
 
-for i in range(len(dna)):
-	nt = dna[i]
-	if i in range(0, len(dna), 3):
-		frame = 0
-	elif i in range(1, len(dna), 3):
-		frame = 1
-	else: frame = 2
-	print(i, frame, nt)	
-		
+
 """
 python3 27frame.py
 0 0 A

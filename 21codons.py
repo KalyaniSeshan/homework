@@ -6,11 +6,9 @@
 
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
 
-for i in range(0, len(dna), 3):
-	codon = dna[i:i+3]
-	print(codon)
-	
+
 """
+python3 21codons.py
 ATA
 GCG
 AAT

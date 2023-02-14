@@ -6,12 +6,7 @@
 
 # Your code goes here
 
-for i in range(5, 50, 7):
-	print(i)
 """
-
-# 5 is the starting value, 50 is the max, in jumps of 7
-
 python3 20loop.py
 5
 12
