@@ -9,6 +9,17 @@
 # Variation: use 20 named variables
 # Variation: use a list
 
+import gzip
+import sys
+
+aa_list = []
+with gzip.open(sys.argv[1], 'rt'):
+	aa = 0
+	for i in range(aa_list):
+		aa_list[i] = aa
+		aa += 1
+print(aa)
+
 
 """
 python3 40aacomp.py ~/DATA/E.coli/GCF_000005845.2_ASM584v2_protein.faa.gz
