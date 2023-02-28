@@ -12,13 +12,20 @@
 import gzip
 import sys
 
-aa_list = []
-with gzip.open(sys.argv[1], 'rt'):
-	aa = 0
-	for i in range(aa_list):
-		aa_list[i] = aa
-		aa += 1
-print(aa)
+aa_list = ['I', 'V', 'L', 'F', 'C', 'M', 'A', 'G', 'T', 'S', 'W', 'Y', 'P', 'H', 'E', 'Q', 'D', 'N', 'K', 'R']
+seq = []
+
+with gzip.open(sys.argv[1], 'rt') as fp:
+	for line in fp.readlines():
+		if line.startswith('>'):
+			continue
+		for i in range(len(line) - 1):
+			seq.append(line[i])
+for i in range(len(aa_list)):
+	aa_num = seq.count(aa_list[i])
+	aa_comp = aa_num / len(seq)
+	print(aa_list[i], aa_num, f'{aa_comp:.4f}')
+	
 
 
 """
